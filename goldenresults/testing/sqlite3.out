@@ -1,3 +1,7 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
+Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
+Skipping liblapack.dylib
+Skipping libblas.dylib
 bot
  (region: r1)
  (contact: top)

@@ -2,7 +2,7 @@
 set -e
 BASEDIR="${PWD}"
 TAG=${1}
-TAGDIR=devsim_macos_${TAG}
+TAGDIR=devsim_macos_arm64_${TAG}
 TAGTGZ=${TAGDIR}.tgz
 DEVSIM_LIB=${TAGDIR}/lib
 
@@ -25,5 +25,5 @@ chmod +x bin/devsim_py38
 cp CMakeLists.txt ${TAGDIR}/
 rm -rf run && mkdir run
 (cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py38 ../${TAGDIR})
-(cd run && (ctest -j4 --no-compress-output -T Test || true))
+(cd run && (ctest -j1 --no-compress-output -T Test || true))
 

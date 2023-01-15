@@ -1,3 +1,7 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
+Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
+Skipping liblapack.dylib
+Skipping libblas.dylib
 bot
  (region: MyRegion)
  (contact: top)
@@ -11,9 +15,9 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e+00
   Circuit: 	RelError: 1.00000e+00	AbsError: 2.00000e+00
 Iteration: 1
-  Device: "MyDevice"	RelError: 1.70655e-16	AbsError: 1.02393e-16
-    Region: "MyRegion"	RelError: 1.70655e-16	AbsError: 1.02393e-16
-      Equation: "PotentialEquation"	RelError: 1.70655e-16	AbsError: 1.02393e-16
+  Device: "MyDevice"	RelError: 3.75441e-16	AbsError: 2.25265e-16
+    Region: "MyRegion"	RelError: 3.75441e-16	AbsError: 2.25265e-16
+      Equation: "PotentialEquation"	RelError: 3.75441e-16	AbsError: 2.25265e-16
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Circuit Solution
 1	1.000000000000000e+00
@@ -23,17 +27,10 @@ topbias	1.000000000000000e+00
 -3.4515e-13
 creating solution ssac_real with 3 nodes
 creating solution ssac_imag with 3 nodes
-Device: MyDevice	Region: MyRegion	Creating: Potential_Real
-Device: MyDevice	Region: MyRegion	Creating: Potential_Imag
-AC Iteration:
-number of equations 14
-Circuit AC Solution
-1	1.000000000000000e+00	0.000000000000000e+00
-V1.I	-9.978782117116092e-04	-4.601397942853928e-05
-topbias	2.121788288390788e-03	-4.601397942853928e-02
-AC Iteration:
-number of equations 14
-Circuit AC Solution
-1	1.000000000000000e+00	0.000000000000000e+00
-V1.I	-9.999999999997873e-04	-4.611181894592538e-10
-topbias	2.126299846502255e-13	-4.611181894592538e-07
+There was a floating point exception of type "Invalid, Divide-by-zero"  during LU Back Substitution
+Matrix solve failed
+Traceback (most recent call last):
+  File "/Users/ec2-user/devsim_tests_macos_arm64/devsim_macos_arm64_v2.3.7rc1/testing/ssac_cap.py", line 103, in <module>
+    devsim.solve(type="ac", frequency=1e10)
+devsim_py3.error: Convergence failure!
+

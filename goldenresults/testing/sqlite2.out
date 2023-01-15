@@ -1,3 +1,7 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
+Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
+Skipping liblapack.dylib
+Skipping libblas.dylib
 ('1.60217646e-19', 'coul', 'Electron Charge')
 ('2', '', '')
 ('1.60217646e-19', 'coul', 'Electron Charge')

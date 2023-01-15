@@ -1,3 +1,7 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
+Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
+Skipping liblapack.dylib
+Skipping libblas.dylib
 Creating Region air
 Creating Region bulk
 Creating Region gate
@@ -224,24 +228,24 @@ Iteration: 15
     Region: "oxide"	RelError: 9.86356e-12	AbsError: 3.97566e-12
       Equation: "PotentialEquation"	RelError: 9.86356e-12	AbsError: 3.97566e-12
 Iteration: 16
-  Device: "mymos"	RelError: 1.63050e-12	AbsError: 1.69600e-13
-    Region: "bulk"	RelError: 1.63017e-12	AbsError: 1.69600e-13
-      Equation: "PotentialEquation"	RelError: 1.63017e-12	AbsError: 1.69600e-13
+  Device: "mymos"	RelError: 1.63050e-12	AbsError: 1.69599e-13
+    Region: "bulk"	RelError: 1.63016e-12	AbsError: 1.69599e-13
+      Equation: "PotentialEquation"	RelError: 1.63016e-12	AbsError: 1.69599e-13
     Region: "gate"	RelError: 1.52080e-16	AbsError: 9.06496e-17
       Equation: "PotentialEquation"	RelError: 1.52080e-16	AbsError: 9.06496e-17
     Region: "oxide"	RelError: 1.80941e-16	AbsError: 1.06882e-16
       Equation: "PotentialEquation"	RelError: 1.80941e-16	AbsError: 1.06882e-16
 Iteration: 17
-  Device: "mymos"	RelError: 7.20110e-16	AbsError: 1.24265e-16
-    Region: "bulk"	RelError: 3.15515e-16	AbsError: 1.24265e-16
-      Equation: "PotentialEquation"	RelError: 3.15515e-16	AbsError: 1.24265e-16
+  Device: "mymos"	RelError: 7.90238e-16	AbsError: 1.24265e-16
+    Region: "bulk"	RelError: 3.85642e-16	AbsError: 1.24265e-16
+      Equation: "PotentialEquation"	RelError: 3.85642e-16	AbsError: 1.24265e-16
     Region: "gate"	RelError: 2.07552e-16	AbsError: 1.23716e-16
       Equation: "PotentialEquation"	RelError: 2.07552e-16	AbsError: 1.23716e-16
     Region: "oxide"	RelError: 1.97044e-16	AbsError: 1.17451e-16
       Equation: "PotentialEquation"	RelError: 1.97044e-16	AbsError: 1.17451e-16
 number of equations 2539
 Iteration: 0
-  Device: "mymos"	RelError: 5.32040e-16	AbsError: 1.22087e-16
+  Device: "mymos"	RelError: 5.32039e-16	AbsError: 1.22087e-16
     Region: "bulk"	RelError: 2.27578e-16	AbsError: 1.22087e-16
       Equation: "PotentialEquation"	RelError: 2.27578e-16	AbsError: 1.22087e-16
     Region: "gate"	RelError: 1.24321e-16	AbsError: 7.41036e-17
@@ -261,15 +265,9 @@ Replacing Edge Model ElectronCurrent in region bulk of material Silicon
 Replacing Edge Model HoleCurrent in region bulk of material Silicon
 Replacing Edge Model HoleCurrent in region bulk of material Silicon
 number of equations 7353
-Iteration: 0
-  Device: "mymos"	RelError: 9.86256e-13	AbsError: 4.19840e+04
-    Region: "bulk"	RelError: 3.82721e-13	AbsError: 4.19840e+04
-      Equation: "ElectronContinuityEquation"	RelError: 4.26411e-15	AbsError: 2.04800e+04
-      Equation: "HoleContinuityEquation"	RelError: 4.29994e-15	AbsError: 2.15040e+04
-      Equation: "PotentialEquation"	RelError: 3.74157e-13	AbsError: 5.08929e-14
-    Region: "gate"	RelError: 3.63622e-13	AbsError: 3.27680e+04
-      Equation: "ElectronContinuityEquation"	RelError: 3.27680e-16	AbsError: 3.27680e+04
-      Equation: "HoleContinuityEquation"	RelError: 3.33067e-16	AbsError: 3.33067e-16
-      Equation: "PotentialEquation"	RelError: 3.62961e-13	AbsError: 2.16352e-13
-    Region: "oxide"	RelError: 2.39914e-13	AbsError: 1.43005e-13
-      Equation: "PotentialEquation"	RelError: 2.39914e-13	AbsError: 1.43005e-13
+Matrix factorization failed
+Traceback (most recent call last):
+  File "/Users/ec2-user/devsim_tests_macos_arm64/devsim_macos_arm64_v2.3.7rc1/testing/mos_2d.py", line 63, in <module>
+    devsim.solve(type="dc", absolute_error=1.0e30, relative_error=1e-5, maximum_iterations=30)
+devsim_py3.error: Convergence failure!
+
