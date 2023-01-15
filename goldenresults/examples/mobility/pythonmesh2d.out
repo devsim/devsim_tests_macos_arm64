@@ -1,3 +1,7 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
+Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
+Skipping liblapack.dylib
+Skipping libblas.dylib
 2 dimension
 2847 coordinates
 Physical group name body_contact has 0 Tetrahedra.
