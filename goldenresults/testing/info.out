@@ -2,4 +2,4 @@ Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
 Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
 Skipping liblapack.dylib
 Skipping libblas.dylib
-{'copyright': 'Copyright © 2009-2023 DEVSIM LLC', 'direct_solver': ('superlu',), 'explicit_math_load': True, 'extended_precision': True, 'license': 'Apache License, Version 2.0', 'superlu_version': '5.3.0', 'version': '2.3.7', 'website': 'https://devsim.org'}
+{'copyright': 'Copyright © 2009-2023 DEVSIM LLC', 'direct_solver': ('superlu',), 'explicit_math_load': True, 'extended_precision': True, 'license': 'Apache License, Version 2.0', 'superlu_version': '5.3.0', 'version': '2.3.8', 'website': 'https://devsim.org'}
