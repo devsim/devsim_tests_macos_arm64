@@ -157,10 +157,10 @@ Iteration: 0
 Circuit output V1.I has equation 242.
 creating solution noise_V1.I_real with 2 nodes
 creating solution noise_V1.I_imag with 2 nodes
-There was a floating point exception of type "Invalid, Divide-by-zero"  during LU Back Substitution
-Matrix solve failed
-Traceback (most recent call last):
-  File "/Users/ec2-user/devsim_tests_macos_arm64/devsim_macos_arm64_v2.3.7rc1/testing/noise_res_2d.py", line 69, in <module>
-    devsim.solve(type="noise", frequency=1e5, output_node="V1.I")
-devsim_py3.error: Convergence failure!
-
+Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_real
+Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_imag
+Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_real
+Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_imag
+Noise Iteration:
+number of equations 244
+9.54776007619548e-20

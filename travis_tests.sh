@@ -25,5 +25,6 @@ chmod +x bin/devsim_py38
 cp CMakeLists.txt ${TAGDIR}/
 rm -rf run && mkdir run
 (cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py38 ../${TAGDIR})
+# TODO: need to understand how to control number of threads
 (cd run && (ctest -j1 --no-compress-output -T Test || true))
 
