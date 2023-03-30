@@ -225,7 +225,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_x:Potential@en3
 13 ElectronCurrent_y:Potential@en3
 14 ElectronCurrent_z:Potential@en3
-5.662441253662109e-07
+4.172325134277344e-07
 [[-0.00137788 -0.00131421  0.01240438]
  [-0.00137883 -0.00131511  0.01240221]
  [-0.00137878 -0.00131506  0.01240251]
@@ -259,7 +259,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node0_x:Potential@en3
 13 ElectronCurrent_node0_y:Potential@en3
 14 ElectronCurrent_node0_z:Potential@en3
-7.003545761108398e-07
+5.364418029785156e-07
 [[-0.00138089 -0.00131707  0.01240438]
  [-0.00138089 -0.00131707  0.01240438]
  [-0.00138089 -0.00131707  0.01240438]
@@ -293,7 +293,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node1_x:Potential@en3
 13 ElectronCurrent_node1_y:Potential@en3
 14 ElectronCurrent_node1_z:Potential@en3
-5.066394805908203e-07
+5.206093192100525e-07
 [[-0.00137488 -0.00131135  0.01240438]
  [-0.00137678 -0.00131316  0.01240004]
  [-0.00137666 -0.00131305  0.01240064]

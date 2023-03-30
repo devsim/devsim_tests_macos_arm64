@@ -1,13 +1,10 @@
 #!/bin/bash
 set -e
+set -u
 BASEDIR="${PWD}"
 TAG=${1}
 TAGDIR=devsim_macos_arm64_${TAG}
-TAGTGZ=${TAGDIR}.tgz
-DEVSIM_LIB=${TAGDIR}/lib
-
-#curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
-#tar xzf ${TAGTGZ} 
+DEVSIM_LIB=${TAGDIR}
 
 mkdir -p bin
 cat << EOF > bin/devsim_py38
@@ -16,15 +13,14 @@ set -e
 progname="\$0"
 curdir=\`dirname "\${progname}"\`
 export PYTHONHASHSEED=0
-# sequential speeds up small examples
-export MKL_NUM_THREADS=1
+# sequential speeds reduces over all testing time
+export OMP_NUM_THREADS=1
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
 chmod +x bin/devsim_py38
-cp CMakeLists.txt ${TAGDIR}/
+cp CMakeLists.txt ${TAGDIR}/devsim_data
 rm -rf run && mkdir run
-(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py38 ../${TAGDIR})
-# TODO: need to understand how to control number of threads
-(cd run && (ctest -j1 --no-compress-output -T Test || true))
+(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py38 ../${TAGDIR}/devsim_data)
+(cd run && (ctest -j4 --no-compress-output -T Test || true))
 

@@ -6,13 +6,12 @@ Please see ``travis_tests.sh`` for an example of how to setup and run the tests.
 
 Results are sensitive to the CPU and system libraries that may be installed on your Mac OS X computer.
 
-All tests pass on Mac OS X 10.13 on a Macbook Pro 2014.
+All tests pass on macOS Ventura 13.3 on a Mac mini M1, 2020.
 
-For example:
-
+Trial run from a Anaconda Python environment:
 ```
-cd devsim_tests_macos_gcc_x86_x64
 source preinstall.sh
-tar xzvf devsim_macos_v1.7.0.tgz
-bash travis_tests.sh v1.7.0
+pip install --target devsim_macos_arm64_v2.4.0 devsim-2.4.0-cp36-abi3-macosx_12_0_arm64.whl
+bash travis_tests.sh v2.4.0
 ```
+
