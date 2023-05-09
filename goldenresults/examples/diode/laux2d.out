@@ -2,6 +2,7 @@ Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
 Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
 Skipping liblapack.dylib
 Skipping libblas.dylib
+loading UMFPACK 5.1 as direct solver
 Adding 501 nodes
 Adding 1422 edges with 0 duplicates removed
 Adding 922 triangles  with 0 duplicate removed
@@ -152,12 +153,12 @@ Replacing Triangle Edge Model sy in region Bulk of material Silicon
 5 ElectronCurrent_y:Potential@en1
 6 ElectronCurrent_x:Potential@en2
 7 ElectronCurrent_y:Potential@en2
-1.555308699607849e-07
-[[-1.22840416e-18  1.20454936e-02]
- [-1.37329541e-18  1.20454936e-02]
+1.4901161193847656e-07
+[[-3.73548906e-19  1.20454936e-02]
+ [-4.17609297e-19  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
-[[-1.22840416e-18  1.20454936e-02]
- [-1.37329541e-18  1.20454936e-02]
+[[-3.73548906e-19  1.20454936e-02]
+ [-4.17609297e-19  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
 [[0. 0.]
  [0. 0.]
@@ -170,7 +171,7 @@ Replacing Triangle Edge Model sy in region Bulk of material Silicon
 5 ElectronCurrent_node0_y:Potential@en1
 6 ElectronCurrent_node0_x:Potential@en2
 7 ElectronCurrent_node0_y:Potential@en2
-1.7695128917694092e-07
+1.564621925354004e-07
 [[0.         0.01204549]
  [0.         0.01204549]
  [0.         0.01204549]]
@@ -188,12 +189,12 @@ Replacing Triangle Edge Model sy in region Bulk of material Silicon
 5 ElectronCurrent_node1_y:Potential@en1
 6 ElectronCurrent_node1_x:Potential@en2
 7 ElectronCurrent_node1_y:Potential@en2
-1.7695128917694092e-07
-[[-1.80434639e-18  1.20454936e-02]
- [-1.80434639e-18  1.20454936e-02]
+1.564621925354004e-07
+[[-5.48688815e-19  1.20454936e-02]
+ [-5.48688815e-19  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
-[[-1.80434639e-18  1.20454936e-02]
- [-1.80434639e-18  1.20454936e-02]
+[[-5.48688815e-19  1.20454936e-02]
+ [-5.48688815e-19  1.20454936e-02]
  [ 0.00000000e+00  1.20454936e-02]]
 [[0. 0.]
  [0. 0.]

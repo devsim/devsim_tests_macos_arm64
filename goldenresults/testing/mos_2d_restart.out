@@ -2,6 +2,7 @@ Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
 Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
 Skipping liblapack.dylib
 Skipping libblas.dylib
+loading UMFPACK 5.1 as direct solver
 Adding 1016 nodes
 Adding 2560 edges with 0 duplicates removed
 Adding 1544 triangles  with 0 duplicate removed
@@ -387,14 +388,14 @@ Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: source, Equation: HoleContinuityEquation
 number of equations 7353
 Iteration: 0
-  Device: "mymos"	RelError: 1.99163e-10	AbsError: 4.89964e+08
-    Region: "bulk"	RelError: 1.99155e-10	AbsError: 4.89964e+08
-      Equation: "ElectronContinuityEquation"	RelError: 9.74731e-11	AbsError: 2.50061e+06
-      Equation: "HoleContinuityEquation"	RelError: 9.74731e-11	AbsError: 4.87463e+08
-      Equation: "PotentialEquation"	RelError: 4.20928e-12	AbsError: 2.18263e-12
-    Region: "gate"	RelError: 6.13210e-15	AbsError: 2.86035e+05
-      Equation: "ElectronContinuityEquation"	RelError: 2.86121e-15	AbsError: 2.86035e+05
-      Equation: "HoleContinuityEquation"	RelError: 3.18018e-15	AbsError: 3.18114e-15
+  Device: "mymos"	RelError: 2.46207e-14	AbsError: 2.86061e+05
+    Region: "bulk"	RelError: 1.81993e-14	AbsError: 8.28159e+04
+      Equation: "ElectronContinuityEquation"	RelError: 8.05117e-15	AbsError: 4.58268e+04
+      Equation: "HoleContinuityEquation"	RelError: 9.64818e-15	AbsError: 3.69891e+04
+      Equation: "PotentialEquation"	RelError: 4.99964e-16	AbsError: 2.00109e-16
+    Region: "gate"	RelError: 6.13262e-15	AbsError: 2.86061e+05
+      Equation: "ElectronContinuityEquation"	RelError: 2.86147e-15	AbsError: 2.86061e+05
+      Equation: "HoleContinuityEquation"	RelError: 3.18044e-15	AbsError: 3.18140e-15
       Equation: "PotentialEquation"	RelError: 9.07071e-17	AbsError: 5.40682e-17
-    Region: "oxide"	RelError: 1.03743e-15	AbsError: 4.26925e-16
-      Equation: "PotentialEquation"	RelError: 1.03743e-15	AbsError: 4.26925e-16
+    Region: "oxide"	RelError: 2.88791e-16	AbsError: 1.18843e-16
+      Equation: "PotentialEquation"	RelError: 2.88791e-16	AbsError: 1.18843e-16

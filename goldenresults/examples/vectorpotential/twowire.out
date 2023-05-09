@@ -2,6 +2,7 @@ Searching DEVSIM_MATH_LIBS="libopenblas.dylib:liblapack.dylib:libblas.dylib"
 Loading "libopenblas.dylib": ALL BLAS/LAPACK LOADED
 Skipping liblapack.dylib
 Skipping libblas.dylib
+loading UMFPACK 5.1 as direct solver
 Physical group name air has 0 Tetrahedra.
 Physical group name air has 7689 Triangles.
 Physical group name air has 11633 Lines.
@@ -43,21 +44,21 @@ Iteration: 0
     Region: "right"	RelError: 1.00000e+00	AbsError: 9.49731e-03
       Equation: "Az_Equation"	RelError: 1.00000e+00	AbsError: 9.49731e-03
 Iteration: 1
-  Device: "twowire"	RelError: 3.00161e-10	AbsError: 2.58149e-16
-    Region: "air"	RelError: 3.00074e-10	AbsError: 2.50990e-16
-      Equation: "Az_Equation"	RelError: 3.00074e-10	AbsError: 2.50990e-16
-    Region: "left"	RelError: 4.27149e-14	AbsError: 2.58149e-16
-      Equation: "Az_Equation"	RelError: 4.27149e-14	AbsError: 2.58149e-16
-    Region: "right"	RelError: 4.34849e-14	AbsError: 2.51374e-16
-      Equation: "Az_Equation"	RelError: 4.34849e-14	AbsError: 2.51374e-16
+  Device: "twowire"	RelError: 1.58657e-10	AbsError: 1.40942e-16
+    Region: "air"	RelError: 1.58615e-10	AbsError: 1.35080e-16
+      Equation: "Az_Equation"	RelError: 1.58615e-10	AbsError: 1.35080e-16
+    Region: "left"	RelError: 2.30346e-14	AbsError: 1.40942e-16
+      Equation: "Az_Equation"	RelError: 2.30346e-14	AbsError: 1.40942e-16
+    Region: "right"	RelError: 1.89070e-14	AbsError: 1.12510e-16
+      Equation: "Az_Equation"	RelError: 1.89070e-14	AbsError: 1.12510e-16
 Iteration: 2
-  Device: "twowire"	RelError: 9.87109e-13	AbsError: 1.76247e-18
-    Region: "air"	RelError: 9.86750e-13	AbsError: 1.56514e-18
-      Equation: "Az_Equation"	RelError: 9.86750e-13	AbsError: 1.56514e-18
-    Region: "left"	RelError: 1.35440e-16	AbsError: 1.22312e-18
-      Equation: "Az_Equation"	RelError: 1.35440e-16	AbsError: 1.22312e-18
-    Region: "right"	RelError: 2.23662e-16	AbsError: 1.76247e-18
-      Equation: "Az_Equation"	RelError: 2.23662e-16	AbsError: 1.76247e-18
+  Device: "twowire"	RelError: 1.10492e-12	AbsError: 1.64082e-18
+    Region: "air"	RelError: 1.10451e-12	AbsError: 1.64082e-18
+      Equation: "Az_Equation"	RelError: 1.10451e-12	AbsError: 1.64082e-18
+    Region: "left"	RelError: 2.05737e-16	AbsError: 1.64082e-18
+      Equation: "Az_Equation"	RelError: 2.05737e-16	AbsError: 1.64082e-18
+    Region: "right"	RelError: 2.01533e-16	AbsError: 1.43334e-18
+      Equation: "Az_Equation"	RelError: 2.01533e-16	AbsError: 1.43334e-18
 ElementNodeVolume 2.002482e+02
 NodeVolume 4.004963e+02
 ElementNodeVolume 1.570720e-02
