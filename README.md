@@ -9,10 +9,10 @@ Results are sensitive to the CPU and system libraries that may be installed on y
 All tests pass on macOS Ventura 13.3 on a Mac mini M1, 2020.
 
 Trial run from a Anaconda Python environment:
-```
+
 ```
 source preinstall.sh
-pip install --target devsim_macos_arm64_2.7.2 devsim-2.7.2-cp37-abi3-macosx_12_0_universal2.whl
-chmod u+x devsim_macos_arm64_2.7.2/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.7.2
+pip install --target devsim_macos_arm64_2.7.3 devsim-2.7.3-cp37-abi3-macosx_12_0_universal2.whl
+chmod u+x devsim_macos_arm64_2.7.3/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.7.3
 ```
