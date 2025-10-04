@@ -261,11 +261,11 @@ Could not find a model by the name of Electrons:Holes, using 0.0
 Could not find a model by the name of NetDoping:Holes, using 0.0
 Device: mymos Region: gate Equation: PotentialEquation NODE Model: PotentialNodeCharge:Potential MISSING
 Iteration: 0
-  Device: "mymos"	RelError: 1.26962e-14	AbsError: 8.03389e+03
-    Region: "bulk"	RelError: 1.16663e-14	AbsError: 4.41656e+03
-      Equation: "ElectronContinuityEquation"	RelError: 5.69434e-15	AbsError: 2.74320e+03
-      Equation: "HoleContinuityEquation"	RelError: 5.48684e-15	AbsError: 1.67336e+03
-      Equation: "PotentialEquation"	RelError: 4.85096e-16	AbsError: 1.94158e-16
+  Device: "mymos"	RelError: 1.40902e-14	AbsError: 8.03389e+03
+    Region: "bulk"	RelError: 1.30610e-14	AbsError: 4.41657e+03
+      Equation: "ElectronContinuityEquation"	RelError: 5.69933e-15	AbsError: 2.74320e+03
+      Equation: "HoleContinuityEquation"	RelError: 5.15844e-15	AbsError: 1.67337e+03
+      Equation: "PotentialEquation"	RelError: 2.20320e-15	AbsError: 1.94143e-16
     Region: "gate"	RelError: 7.37611e-16	AbsError: 8.03389e+03
       Equation: "ElectronContinuityEquation"	RelError: 8.03389e-17	AbsError: 8.03389e+03
 	RelErrorNode: 17	AbsErrorNode: 17
@@ -273,5 +273,5 @@ Iteration: 0
 	RelErrorNode: 34	AbsErrorNode: 34
       Equation: "PotentialEquation"	RelError: 9.07073e-17	AbsError: 5.40683e-17
 	RelErrorNode: 70	AbsErrorNode: 70
-    Region: "oxide"	RelError: 2.92320e-16	AbsError: 1.20295e-16
-      Equation: "PotentialEquation"	RelError: 2.92320e-16	AbsError: 1.20295e-16
+    Region: "oxide"	RelError: 2.91597e-16	AbsError: 1.19998e-16
+      Equation: "PotentialEquation"	RelError: 2.91597e-16	AbsError: 1.19998e-16

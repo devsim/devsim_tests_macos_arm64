@@ -282,6 +282,8 @@ number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.92159e+09	AbsError: 1.23137e+00
 Iteration: 1
+  Circuit: 	RelError: 2.77556e-07	AbsError: 1.38778e-16
+Iteration: 2
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 number of equations 3
 Iteration: 0
@@ -526,7 +528,7 @@ Iteration: 0
   Circuit: 	RelError: 1.65699e-04	AbsError: 1.98204e-04
 Iteration: 1
   Circuit: 	RelError: 1.39223e-16	AbsError: 2.77556e-17
-Charge Relative Error 6.86291e-09
+Charge Relative Error 6.86292e-09
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34342e-04	AbsError: 2.80246e-04
@@ -537,26 +539,26 @@ number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65699e-04	AbsError: 1.98124e-04
 Iteration: 1
-  Circuit: 	RelError: 1.33657e-16	AbsError: 1.34297e-16
+  Circuit: 	RelError: 1.33657e-16	AbsError: 1.59812e-16
 Charge Relative Error 6.86291e-09
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34342e-04	AbsError: 2.80134e-04
 Iteration: 1
-  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
+  Circuit: 	RelError: 1.39311e-16	AbsError: 2.77556e-17
 Charge Relative Error 1.37274e-08
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65699e-04	AbsError: 1.98045e-04
 Iteration: 1
-  Circuit: 	RelError: 1.33711e-16	AbsError: 1.59812e-16
+  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Charge Relative Error 6.86291e-09
 BDF1 Method
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.99202e+09	AbsError: 1.20319e+00
 Iteration: 1
-  Circuit: 	RelError: 2.77556e-07	AbsError: 1.38778e-16
+  Circuit: 	RelError: 2.77556e-07	AbsError: 2.77556e-17
 Iteration: 2
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 number of equations 3
@@ -763,74 +765,74 @@ number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65687e-05	AbsError: 1.98784e-05
 Iteration: 1
-  Circuit: 	RelError: 1.38806e-16	AbsError: 2.77556e-17
+  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Charge Relative Error 6.86291e-11
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34317e-05	AbsError: 2.81118e-05
 Iteration: 1
-  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
+  Circuit: 	RelError: 2.13153e-16	AbsError: 2.55726e-16
 Charge Relative Error 1.37260e-10
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65687e-05	AbsError: 1.98776e-05
 Iteration: 1
-  Circuit: 	RelError: 1.38811e-16	AbsError: 2.77556e-17
+  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Charge Relative Error 6.86291e-11
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34317e-05	AbsError: 2.81107e-05
 Iteration: 1
-  Circuit: 	RelError: 2.13162e-16	AbsError: 2.55726e-16
+  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Charge Relative Error 1.37260e-10
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65687e-05	AbsError: 1.98768e-05
 Iteration: 1
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Charge Relative Error 6.86290e-11
+Charge Relative Error 6.86292e-11
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34317e-05	AbsError: 2.81095e-05
 Iteration: 1
-  Circuit: 	RelError: 2.13170e-16	AbsError: 2.55726e-16
+  Circuit: 	RelError: 1.38820e-16	AbsError: 2.77556e-17
 Charge Relative Error 1.37260e-10
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65687e-05	AbsError: 1.98761e-05
 Iteration: 1
-  Circuit: 	RelError: 2.13174e-16	AbsError: 2.55726e-16
+  Circuit: 	RelError: 1.38822e-16	AbsError: 2.77556e-17
 Charge Relative Error 6.86291e-11
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34317e-05	AbsError: 2.81084e-05
 Iteration: 1
-  Circuit: 	RelError: 2.13179e-16	AbsError: 2.27971e-16
+  Circuit: 	RelError: 1.38826e-16	AbsError: 2.77556e-17
 Charge Relative Error 1.37260e-10
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65687e-05	AbsError: 1.98753e-05
 Iteration: 1
-  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Charge Relative Error 6.86291e-11
+  Circuit: 	RelError: 3.52010e-16	AbsError: 2.83482e-16
+Charge Relative Error 6.86292e-11
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34317e-05	AbsError: 2.81073e-05
 Iteration: 1
-  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
+  Circuit: 	RelError: 2.13187e-16	AbsError: 2.27971e-16
 Charge Relative Error 1.37260e-10
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65687e-05	AbsError: 1.98745e-05
 Iteration: 1
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Charge Relative Error 6.86292e-11
+Charge Relative Error 6.86291e-11
 BDF1 Method
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.99920e+09	AbsError: 1.20032e+00
 Iteration: 1
-  Circuit: 	RelError: 5.55112e-07	AbsError: 1.66533e-16
+  Circuit: 	RelError: 2.77556e-07	AbsError: 1.38778e-16
 Iteration: 2
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 number of equations 3
@@ -1039,38 +1041,38 @@ number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65686e-06	AbsError: 1.98819e-06
 Iteration: 1
-  Circuit: 	RelError: 1.70490e-16	AbsError: 2.04583e-16
+  Circuit: 	RelError: 3.09270e-16	AbsError: 2.32339e-16
 Charge Relative Error 6.86309e-13
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34315e-06	AbsError: 2.81172e-06
 Iteration: 1
   Circuit: 	RelError: 1.70490e-16	AbsError: 2.04583e-16
-Charge Relative Error 1.37271e-12
+Charge Relative Error 1.37262e-12
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65686e-06	AbsError: 1.98818e-06
 Iteration: 1
-  Circuit: 	RelError: 1.70490e-16	AbsError: 2.04583e-16
-Charge Relative Error 6.86223e-13
+  Circuit: 	RelError: 1.38781e-16	AbsError: 2.77556e-17
+Charge Relative Error 6.86312e-13
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34315e-06	AbsError: 2.81170e-06
 Iteration: 1
-  Circuit: 	RelError: 1.70491e-16	AbsError: 2.04583e-16
+  Circuit: 	RelError: 1.38782e-16	AbsError: 2.77556e-17
 Charge Relative Error 1.37263e-12
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65686e-06	AbsError: 1.98817e-06
 Iteration: 1
   Circuit: 	RelError: 1.70491e-16	AbsError: 2.04583e-16
-Charge Relative Error 6.86226e-13
+Charge Relative Error 6.86137e-13
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34315e-06	AbsError: 2.81169e-06
 Iteration: 1
-  Circuit: 	RelError: 3.09273e-16	AbsError: 2.32339e-16
-Charge Relative Error 1.37272e-12
+  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
+Charge Relative Error 1.37263e-12
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65686e-06	AbsError: 1.98816e-06
@@ -1087,19 +1089,19 @@ number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65686e-06	AbsError: 1.98816e-06
 Iteration: 1
-  Circuit: 	RelError: 1.70492e-16	AbsError: 2.04583e-16
+  Circuit: 	RelError: 1.70492e-16	AbsError: 1.76828e-16
 Charge Relative Error 6.86320e-13
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 2.34315e-06	AbsError: 2.81167e-06
 Iteration: 1
-  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Charge Relative Error 1.37255e-12
+  Circuit: 	RelError: 1.70493e-16	AbsError: 2.04583e-16
+Charge Relative Error 1.37247e-12
 number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.65686e-06	AbsError: 1.98815e-06
 Iteration: 1
-  Circuit: 	RelError: 1.38783e-16	AbsError: 2.77556e-17
+  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Charge Relative Error 6.86234e-13
 method: bdf1, tstep: 1.00000e-01
 9.96012e-01 9.96008e-01 3.99468e-06 1.99202e-01 1.99202e-01 3.99468e-06
@@ -1227,10 +1229,10 @@ method: trbdf, tstep: 1.00000e-03
 9.99880e-01 9.99880e-01 3.99989e-10 1.99976e-01 1.99976e-01 3.99989e-10
 9.99840e-01 9.99840e-01 3.99987e-10 1.99968e-01 1.99968e-01 3.99987e-10
 9.99800e-01 9.99800e-01 3.99984e-10 1.99960e-01 1.99960e-01 3.99984e-10
-9.99760e-01 9.99760e-01 3.99981e-10 1.99952e-01 1.99952e-01 3.99982e-10
-9.99720e-01 9.99720e-01 3.99978e-10 1.99944e-01 1.99944e-01 3.99979e-10
+9.99760e-01 9.99760e-01 3.99981e-10 1.99952e-01 1.99952e-01 3.99981e-10
+9.99720e-01 9.99720e-01 3.99979e-10 1.99944e-01 1.99944e-01 3.99979e-10
 9.99680e-01 9.99680e-01 3.99976e-10 1.99936e-01 1.99936e-01 3.99976e-10
-9.99640e-01 9.99640e-01 3.99973e-10 1.99928e-01 1.99928e-01 3.99973e-10
+9.99640e-01 9.99640e-01 3.99974e-10 1.99928e-01 1.99928e-01 3.99974e-10
 9.99600e-01 9.99600e-01 3.99971e-10 1.99920e-01 1.99920e-01 3.99971e-10
 
 method: trbdf, tstep: 1.00000e-04
@@ -1238,10 +1240,10 @@ method: trbdf, tstep: 1.00000e-04
 9.99992e-01 9.99992e-01 4.00017e-12 1.99998e-01 1.99998e-01 4.00017e-12
 9.99988e-01 9.99988e-01 4.00007e-12 1.99998e-01 1.99998e-01 4.00032e-12
 9.99984e-01 9.99984e-01 3.99998e-12 1.99997e-01 1.99997e-01 4.00006e-12
-9.99980e-01 9.99980e-01 4.00010e-12 1.99996e-01 1.99996e-01 4.00007e-12
-9.99976e-01 9.99976e-01 4.00012e-12 1.99995e-01 1.99995e-01 4.00023e-12
-9.99972e-01 9.99972e-01 4.00002e-12 1.99994e-01 1.99994e-01 4.00011e-12
-9.99968e-01 9.99968e-01 4.00015e-12 1.99994e-01 1.99994e-01 4.00012e-12
-9.99964e-01 9.99964e-01 4.00017e-12 1.99993e-01 1.99993e-01 4.00014e-12
-9.99960e-01 9.99960e-01 3.99985e-12 1.99992e-01 1.99992e-01 3.99988e-12
+9.99980e-01 9.99980e-01 3.99999e-12 1.99996e-01 1.99996e-01 4.00007e-12
+9.99976e-01 9.99976e-01 4.00023e-12 1.99995e-01 1.99995e-01 4.00037e-12
+9.99972e-01 9.99972e-01 3.99991e-12 1.99994e-01 1.99994e-01 3.99997e-12
+9.99968e-01 9.99968e-01 3.99982e-12 1.99994e-01 1.99994e-01 3.99985e-12
+9.99964e-01 9.99964e-01 3.99983e-12 1.99993e-01 1.99993e-01 3.99972e-12
+9.99960e-01 9.99960e-01 3.99941e-12 1.99992e-01 1.99992e-01 3.99946e-12
 

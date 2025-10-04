@@ -110,7 +110,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_x:Potential@en3
 13 ElectricField_y:Potential@en3
 14 ElectricField_z:Potential@en3
-2.60770320892334e-08
+2.421438694000244e-08
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -144,7 +144,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_node0_x:Potential@en3
 13 ElectricField_node0_y:Potential@en3
 14 ElectricField_node0_z:Potential@en3
-3.259629011154175e-08
+2.9802322387695312e-08
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -178,7 +178,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_node1_x:Potential@en3
 13 ElectricField_node1_y:Potential@en3
 14 ElectricField_node1_z:Potential@en3
-3.259629011154175e-08
+2.2351741790771484e-08
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -225,7 +225,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_x:Potential@en3
 13 ElectronCurrent_y:Potential@en3
 14 ElectronCurrent_z:Potential@en3
-6.258487701416016e-07
+5.364418029785156e-07
 [[ 5.82060697e-05 -1.13368584e-04  1.22693321e-02]
  [ 5.72356456e-05 -1.14354479e-04  1.22671159e-02]
  [ 5.72656544e-05 -1.14324562e-04  1.22672245e-02]
@@ -259,7 +259,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node0_x:Potential@en3
 13 ElectronCurrent_node0_y:Potential@en3
 14 ElectronCurrent_node0_z:Potential@en3
-6.854534149169922e-07
+5.662441253662109e-07
 [[ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
  [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
  [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
@@ -293,7 +293,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node1_x:Potential@en3
 13 ElectronCurrent_node1_y:Potential@en3
 14 ElectronCurrent_node1_z:Potential@en3
-6.854534149169922e-07
+5.662441253662109e-07
 [[ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
  [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
  [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]
