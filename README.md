@@ -12,7 +12,7 @@ Trial run from a Anaconda Python environment:
 
 ```
 source preinstall.sh
-pip install --target devsim_macos_arm64_2.11.1 devsim-2.11.1-cp39-abi3-macosx_15_0_arm64.whl
-chmod u+x devsim_macos_arm64_2.11.1/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.11.1
+pip install --target devsim_macos_arm64_2.11.2 devsim-2.11.2-cp39-abi3-macosx_15_0_arm64.whl
+chmod u+x devsim_macos_arm64_2.11.2/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.11.2
 ```
